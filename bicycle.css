@@ -1,0 +1,177 @@
+
+
+.containerbackgruond
+{
+    background: url(https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/moutain-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 600px; */
+}
+.box
+{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%); 
+ padding-top: 349px;
+}
+
+.containerbackgrunod1
+{
+    background: url(https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/city-bike.jpg) ;
+   background-size: cover;
+   /* height: 600px; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.containerbackgruon2
+{
+    background: url(https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/speciality-bike.jpg) ;
+   background-repeat:  no-repeat;
+    background-attachment: fixed;
+    /* height: 600px; */
+}
+.endbicycle
+{
+    background: url(https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/speciality-bike.jpg);
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    /* padding-top: 300px;
+    padding-bottom: 100px;
+    padding-left: 50px; */
+}
+.endbicycletxt
+{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.361); */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02582282913165268) 3%, rgba(0, 0, 0, 0.9501925770308123) 71%);
+    padding-top: 300px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.face
+{
+    font-size: 30px;
+
+}
+.insta
+{
+    font-size: 30px; 
+    padding-left: 10px;
+}
+.twit
+{
+    font-size: 30px; 
+    padding-left: 10px;
+}
+.git
+{
+    font-size: 30px; 
+     padding-left: 10px;
+}
+
+.img1 img
+{
+
+    transition: .3s all linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.img1 img:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.pro:hover
+{
+cursor: pointer;
+color: rgb(255, 100, 100);
+}
+.link:hover
+{
+cursor: pointer;
+color: rgb(255, 100, 100);
+}
+.learn
+{
+    transition: .5s all linear;
+}
+.learn:hover
+{
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: rgb(0, 0, 0);
+    color: white!important;
+    border-radius: 8px;
+    
+}
+.icon i
+{
+    transition: .5s all linear;
+}
+.icon i:hover
+{
+   cursor: pointer; 
+   transform: scale(1.2);
+
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  /* .center
+  {
+    margin: 0 auto!important;
+  } */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border: 1px solid coral; */
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+  
+       background-color: rgba(0, 0, 0, 0.093);
+    color: rgb(255, 255, 255);
+  }
+  
+  .flip-card-back {
+  
+    transform: rotateY(180deg);
+    background: #080808cc!important;
+    text-align: center !important;
+  }
+  .radius{
+    border-radius: 1rem;
+  }
